@@ -1,0 +1,178 @@
+/* Created by Anthony Gabriel 7/9/2022 */
+
+img { 
+	max-width: 100%;
+}
+
+nav li { 
+	list-style-type: none;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#outerwrapper { 
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main { 
+	clear: both; 
+	background-color: #cce6ff;
+	padding: 3%;
+	border: 2px black solid;
+	border-radius: 25px;
+}
+
+.myname { 
+	font-family: Futura, Calibri, sans-serif;
+	font-size: 2em;
+	text-shadow: 0.2em 0.1em #b5b5b5;
+}
+
+.mobile {
+	display: inline;
+}
+/* below for view on mobile / tablet: */
+@media only screen and (min-width: 481px)
+
+/* style for table on mobile / tablet */
+table {
+	border: 0.1em solid #000000;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+/* style for figure element for image */
+figure {
+	text-align: center;
+}
+
+/* style for article element mobile/tablet */
+article {
+	margin: 1em;
+	padding: 1em;
+	background-color: #ACB7E6;
+}
+
+/* style for section element mobile / tablet */
+section {
+	padding: 1%;
+	text-align: center;
+}
+
+ {
+nav li { display: inline; }
+}
+
+img { 
+	width: 25%;
+	float: left;
+}
+
+header p {
+	margin-bottom: 4em;
+	padding-top: 1.5em;
+}
+nav li {
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 0;
+	padding-right: 0;
+	width: 23%;
+}
+
+main {
+clear: left;
+margin-top: 12em;
+}
+
+.mobile {
+display: none;
+}
+
+.desktop {
+display: inline;
+}
+
+/*below for view on desktop */
+@media only screen and (min-width: 769px) 
+
+/*below for view on desktop - figure */
+figure {
+text-align: center;
+}
+
+/* below for view on desktop - article */
+article {
+	width: 22%;
+	float: left;
+	height: 15em;
+}
+
+/*below table view for desktop */
+table {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+}
+
+/* below for view on desktop - section */
+section {
+	float: left;
+	width: 60%;
+}
+
+#container {
+	width: 80%;
+}
+
+nav {
+	margin-top: 5em;
+}
+
+nav ul {
+	margin: 0;
+	padding-left: 0.50%;
+	padding-right: 0.50%;
+}
+
+nav li {
+	background-color: #FFFFFF;
+	border-radius: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	width: 18%;
+}
+
+nav li a {
+	color: #FF6600;
+	display: inline-block;
+	padding: 0.7em;
+	font-size: 1.25em;
+}
+
+nav li a:link {
+	color: #FF6600;
+}
+
+nav li a:hover {
+	color: #4C1E00;
+}
+
+main {
+	border: 1em;
+	border-radius: 1em;
+	box-shadow: 1em 1em 1em #331400;
+	margin-top: 1em;
+}
+
+
+
+
